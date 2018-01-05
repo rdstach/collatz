@@ -19,8 +19,13 @@ def algo(num):
         print "\nTotal Number :", len(totalNum)
 
 def main():
-	argv = int(sys.argv[1])
-	algo(argv)
+	argv = sys.argv
+
+	if len(argv) != 2:
+		print("The program needs an argument in order to run.\nPlease read the README.")
+	else:
+		argv = int(sys.argv[1])
+		algo(argv)
 
 
 if __name__ == '__main__':
