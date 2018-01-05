@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const print = console.log
-const argv = process.argv[2]
+const argv = process.argv
 
 function algo(num) {
 	num = parseInt(num)
@@ -19,5 +19,9 @@ function algo(num) {
 	return process.exit()
 }
 
-let result = algo(argv)
-print(result)
+if (argv.length != 3) {
+	print("The program needs an argument in order to run.\nPlease read the README.")
+} else {
+	let result = algo(argv[2])
+	print(result)
+}
