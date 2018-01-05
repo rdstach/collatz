@@ -4,7 +4,6 @@ const print = console.log
 const argv = process.argv
 
 function algo(num) {
-	num = parseInt(num)
 
 	while (num != 1) {
 		if (num % 2 == 0) {
@@ -22,6 +21,6 @@ function algo(num) {
 if (argv.length != 3) {
 	print("The program needs an argument in order to run.\nPlease read the README.")
 } else {
-	let result = algo(argv[2])
+	let result = algo(int(argv[2]))
 	print(result)
 }
