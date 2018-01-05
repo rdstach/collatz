@@ -4,6 +4,7 @@ import sys
 
 def algo(num):
         totalNum = []
+        totalNum.append(num)
 	print(num)
 
 	while num != 1:
