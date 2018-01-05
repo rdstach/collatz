@@ -21,6 +21,6 @@ function algo(num) {
 if (argv.length != 3) {
 	print("The program needs an argument in order to run.\nPlease read the README.")
 } else {
-	let result = algo(int(argv[2]))
+	let result = algo(parseInt(argv[2]))
 	print(result)
 }
