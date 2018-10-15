@@ -20,3 +20,7 @@ $ python collatz.py 123
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device
 2. Do your magic.. :crystal_ball:
 3. Create a [PR](https://help.github.com/articles/creating-a-pull-request/)
+
+## License
+
+&copy; Roger Stach 2018
